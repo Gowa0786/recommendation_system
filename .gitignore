@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.so
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Данные и модели (не пушим в GitHub)
+data/raw/
+*.pkl
+*.joblib
+*.h5
+models/*.txt
+models/*.pkl
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/

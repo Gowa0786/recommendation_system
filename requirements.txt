@@ -1,0 +1,23 @@
+# Core
+lightgbm==4.6.0
+pandas==2.3.1
+numpy==2.0.2
+scikit-learn==1.6.1
+scipy==1.16.3
+
+# Feature engineering
+category_encoders==2.8.1
+
+
+matplotlib==3.10.7
+seaborn==0.12.2
+
+# Jupyter
+jupyter==1.0.0
+ipykernel
+
+
+faiss-cpu==1.12.0      # для поиска кандидатов
+implicit==1.14.0       # для ALS
+psycopg2-binary==2.9.10  
+SQLAlchemy==2.0.40    
